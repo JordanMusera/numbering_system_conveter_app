@@ -207,7 +207,11 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(this, "An arithmetic exception error occurred!", Toast.LENGTH_SHORT).show();
                 }
             } else if (to.equals("Octal")) {
-                
+                try {
+
+                }catch (Exception e){
+                    Toast.makeText(this, "An arithmetic exception error occurred!", Toast.LENGTH_SHORT).show();
+                }
             }
 
         }
